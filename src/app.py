@@ -43,3 +43,8 @@ if st.button("Predict Price"):
 
     prediction = model.predict(input_data)[0]
     st.success(f"💰 Estimated Price: ₹{prediction:,.2f}")
+st.markdown("---")
+st.markdown(
+    "<h4 style='text-align: center; color: grey;'>Created by <b>Mohd Zibran</b></h4>",
+    unsafe_allow_html=True
+)
